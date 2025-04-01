@@ -158,3 +158,8 @@ frame = 1
 rotation = 1.5708
 scale = Vector2(0.5, 0.5)
 shape = SubResource("CapsuleShape2D_d13ii")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+limit_top = 0
+limit_bottom = 180
+limit_smoothed = true
