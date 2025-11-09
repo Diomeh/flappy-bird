@@ -1,6 +1,6 @@
 [gd_scene load_steps=13 format=3 uid="uid://3hbqxg6rvwa6"]
 
-[ext_resource type="Script" uid="uid://bf71m4txjl877" path="res://player/player.gd" id="1_8t03j"]
+[ext_resource type="Script" uid="uid://dijyiej1rfjk5" path="res://player/player.gd" id="1_8t03j"]
 [ext_resource type="Texture2D" uid="uid://b154hpxkgjq05" path="res://assets/sprites/bluebird-downflap.png" id="1_hg6s5"]
 [ext_resource type="Texture2D" uid="uid://d4jmf608jxt02" path="res://assets/sprites/bluebird-midflap.png" id="2_8t03j"]
 [ext_resource type="Texture2D" uid="uid://b3pf3501pptvf" path="res://assets/sprites/bluebird-upflap.png" id="3_2ieo8"]

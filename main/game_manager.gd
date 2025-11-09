@@ -5,6 +5,7 @@ extends Node
 
 
 func _ready() -> void:
+	SignalBus.player_hit.connect(_on_player_hit)
 	SignalBus.world_speed_changed.emit(get_effective_speed())
 
 
@@ -20,3 +21,7 @@ func set_speed(amount: float) -> void:
 
 func get_effective_speed() -> float:
 	return _world_speed * _speed_scale
+
+
+func _on_player_hit() -> void:
+	pass
